@@ -2,7 +2,7 @@
 //  SatStackerApp.swift
 //  SatStacker
 //
-//  Created by Jeevan Thandi on 26/06/2021.
+//  Created by Codeonomics on 26/06/2021.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct SatStackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().frame(minWidth: 1000, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
         }
     }
 }

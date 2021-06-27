@@ -13,6 +13,17 @@
 		0940589126877C4C004E3E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0940589026877C4C004E3E60 /* Preview Assets.xcassets */; };
 		0940589D26877C4C004E3E60 /* SatStackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0940589C26877C4C004E3E60 /* SatStackerTests.swift */; };
 		094058A826877C4C004E3E60 /* SatStackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058A726877C4C004E3E60 /* SatStackerUITests.swift */; };
+		094058B626877D75004E3E60 /* AppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058B526877D75004E3E60 /* AppHeader.swift */; };
+		094058B82687C0FE004E3E60 /* BitcoinPriceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058B72687C0FE004E3E60 /* BitcoinPriceVM.swift */; };
+		094058BC2687C2B6004E3E60 /* BinanceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058BB2687C2B6004E3E60 /* BinanceAPI.swift */; };
+		094058C22687CF29004E3E60 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058BE2687CF29004E3E60 /* NetworkError.swift */; };
+		094058C32687CF29004E3E60 /* SatStackerNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058BF2687CF29004E3E60 /* SatStackerNetworkService.swift */; };
+		094058C42687CF29004E3E60 /* NetworkRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058C02687CF29004E3E60 /* NetworkRequestBuilder.swift */; };
+		094058C52687CF29004E3E60 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058C12687CF29004E3E60 /* NetworkService.swift */; };
+		094058CB2687D008004E3E60 /* TickerPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058CA2687D008004E3E60 /* TickerPrice.swift */; };
+		094058CD2687D162004E3E60 /* BinanceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094058CC2687D162004E3E60 /* BinanceEndpoint.swift */; };
+		095AB5902688BB290002D994 /* AccountSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AB58F2688BB290002D994 /* AccountSnapshot.swift */; };
+		095AB5922688C2E50002D994 /* BinanceAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AB5912688C2E50002D994 /* BinanceAPIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +57,17 @@
 		094058A326877C4C004E3E60 /* SatStackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatStackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		094058A726877C4C004E3E60 /* SatStackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatStackerUITests.swift; sourceTree = "<group>"; };
 		094058A926877C4C004E3E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094058B526877D75004E3E60 /* AppHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeader.swift; sourceTree = "<group>"; };
+		094058B72687C0FE004E3E60 /* BitcoinPriceVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinPriceVM.swift; sourceTree = "<group>"; };
+		094058BB2687C2B6004E3E60 /* BinanceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceAPI.swift; sourceTree = "<group>"; };
+		094058BE2687CF29004E3E60 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		094058BF2687CF29004E3E60 /* SatStackerNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatStackerNetworkService.swift; sourceTree = "<group>"; };
+		094058C02687CF29004E3E60 /* NetworkRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestBuilder.swift; sourceTree = "<group>"; };
+		094058C12687CF29004E3E60 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		094058CA2687D008004E3E60 /* TickerPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerPrice.swift; sourceTree = "<group>"; };
+		094058CC2687D162004E3E60 /* BinanceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceEndpoint.swift; sourceTree = "<group>"; };
+		095AB58F2688BB290002D994 /* AccountSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSnapshot.swift; sourceTree = "<group>"; };
+		095AB5912688C2E50002D994 /* BinanceAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceAPIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +118,9 @@
 		0940588826877C4B004E3E60 /* SatStacker */ = {
 			isa = PBXGroup;
 			children = (
-				0940588926877C4B004E3E60 /* SatStackerApp.swift */,
-				0940588B26877C4B004E3E60 /* ContentView.swift */,
+				094058BD2687CF09004E3E60 /* Network */,
+				094058CE2687D7E9004E3E60 /* UI */,
+				094058C82687CF66004E3E60 /* ViewModel */,
 				0940588D26877C4C004E3E60 /* Assets.xcassets */,
 				0940589226877C4C004E3E60 /* Info.plist */,
 				0940589326877C4C004E3E60 /* SatStacker.entitlements */,
@@ -130,6 +153,56 @@
 				094058A926877C4C004E3E60 /* Info.plist */,
 			);
 			path = SatStackerUITests;
+			sourceTree = "<group>";
+		};
+		094058BD2687CF09004E3E60 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				094058BE2687CF29004E3E60 /* NetworkError.swift */,
+				094058C12687CF29004E3E60 /* NetworkService.swift */,
+				094058BF2687CF29004E3E60 /* SatStackerNetworkService.swift */,
+				094058C02687CF29004E3E60 /* NetworkRequestBuilder.swift */,
+				094058C72687CF3D004E3E60 /* BinanceAPI */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		094058C72687CF3D004E3E60 /* BinanceAPI */ = {
+			isa = PBXGroup;
+			children = (
+				094058BB2687C2B6004E3E60 /* BinanceAPI.swift */,
+				095AB5912688C2E50002D994 /* BinanceAPIKey.swift */,
+				094058CC2687D162004E3E60 /* BinanceEndpoint.swift */,
+				094058C92687CFDF004E3E60 /* Model */,
+			);
+			path = BinanceAPI;
+			sourceTree = "<group>";
+		};
+		094058C82687CF66004E3E60 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				094058B72687C0FE004E3E60 /* BitcoinPriceVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		094058C92687CFDF004E3E60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				094058CA2687D008004E3E60 /* TickerPrice.swift */,
+				095AB58F2688BB290002D994 /* AccountSnapshot.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		094058CE2687D7E9004E3E60 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0940588926877C4B004E3E60 /* SatStackerApp.swift */,
+				0940588B26877C4B004E3E60 /* ContentView.swift */,
+				094058B526877D75004E3E60 /* AppHeader.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +334,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095AB5902688BB290002D994 /* AccountSnapshot.swift in Sources */,
+				095AB5922688C2E50002D994 /* BinanceAPIKey.swift in Sources */,
 				0940588C26877C4B004E3E60 /* ContentView.swift in Sources */,
+				094058C32687CF29004E3E60 /* SatStackerNetworkService.swift in Sources */,
+				094058C42687CF29004E3E60 /* NetworkRequestBuilder.swift in Sources */,
+				094058B626877D75004E3E60 /* AppHeader.swift in Sources */,
+				094058BC2687C2B6004E3E60 /* BinanceAPI.swift in Sources */,
+				094058C52687CF29004E3E60 /* NetworkService.swift in Sources */,
+				094058B82687C0FE004E3E60 /* BitcoinPriceVM.swift in Sources */,
+				094058CB2687D008004E3E60 /* TickerPrice.swift in Sources */,
 				0940588A26877C4B004E3E60 /* SatStackerApp.swift in Sources */,
+				094058C22687CF29004E3E60 /* NetworkError.swift in Sources */,
+				094058CD2687D162004E3E60 /* BinanceEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

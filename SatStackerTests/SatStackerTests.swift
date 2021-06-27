@@ -2,7 +2,7 @@
 //  SatStackerTests.swift
 //  SatStackerTests
 //
-//  Created by Jeevan Thandi on 26/06/2021.
+//  Created by Codeonomics on 26/06/2021.
 //
 
 import XCTest
