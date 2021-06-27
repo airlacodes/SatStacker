@@ -30,3 +30,13 @@ struct Balance: Codable {
     let free: String
     let locked: String
 }
+
+
+let testObject = AccountSnapshotResponse(code: "200",
+                                         msg: "",
+                                         snapshotVos: Snapshot(data: Portfolio(balances: [Balance(asset: "BTC",
+                                                                                                  free: "0.1213",
+                                                                                                  locked: "0.13")],
+                                                                               totalAssetOfBtc: "0.2513"),
+                                                               type: "spot",
+                                                               updateTime: 1234534))
