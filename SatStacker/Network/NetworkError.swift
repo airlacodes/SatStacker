@@ -1,9 +1,9 @@
 //
 //  APIError.swift
-//  PokeList
+//  SatStacker
 //
-//  Created by Alex Brown on 14/06/2020.
-//  Copyright © 2020 ABrown. All rights reserved.
+//  Created by Codeonomics on 26/06/2021.
+//  Copyright © 2021 Codeonomics. All rights reserved.
 //
 
 import Foundation
