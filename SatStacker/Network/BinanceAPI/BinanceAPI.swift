@@ -10,7 +10,8 @@ import Combine
 
 struct BINANCE_CONST {
     static let root = "https://api.binance.com"
-    
+    static let key = BinanceAPIKey().key
+    static let secret = BinanceAPIKey().secret
     static let tickerPrice = root + "/api/v3/ticker/price"
     static let accountSnapshot = root + "/sapi/v1/accountSnapshot"
 }

@@ -14,7 +14,6 @@ enum BinanceEndpoint {
 
 extension BinanceEndpoint: NetworkRequestBuilder {
     
-
     var urlRequest: URLRequest {
         
         switch self {
