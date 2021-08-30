@@ -1,5 +1,7 @@
 # SatStacker
 
+WIP: Not functional (yet)
+
 Bitcoin is the greatest asset on earth. This Mac OSX app designed to accumulate Sats (Satoshis).
 
 - Provide a dashboard that pulls exchange balances and wallet ballances
